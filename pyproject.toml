@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zodchy-rabbitmq"
-version = "0.1.0"
+version = "0.1.1"
 description = "RabbitMQ pattern for zodchy architecture"
 authors = ["Smairon <man@smairon.ru>"]
 readme = "README.md"
@@ -10,6 +10,7 @@ packages = [{ include = "zodchy_rabbitmq" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 zodchy = "^0"
+aio-pika = "^9.5"
 
 [build-system]
 requires = ["poetry-core"]

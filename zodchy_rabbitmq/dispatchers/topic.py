@@ -9,7 +9,7 @@ from aio_pika.pool import Pool
 from aio_pika.abc import AbstractConnection, AbstractChannel, AbstractExchange
 from zodchy.codex.transport import CommunicationMessage
 from .general import DispatcherSettings, Dispatcher
-from ...internals import encoders
+from ..internals import encoders
 
 
 @dataclasses.dataclass(frozen=True, slots=True, kw_only=True)
